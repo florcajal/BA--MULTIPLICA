@@ -66,20 +66,19 @@ section {
 section h1 {
     color: rgb(155, 122, 13);
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin: 5px;
 }
 
 section h3 {
     text-align: center;
     color: rgb(241, 233, 233);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: 'Rubik', sans-serif;
 }
-
 section p {
     text-align: center;
     color: rgb(41, 91, 148);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Rubik', sans-serif;
     font-size:x-large ;
     
 }
@@ -117,7 +116,7 @@ section p {
     opacity: 0; /* Inicialmente oculta la descripción */
     transition: opacity 0.3s ease; /* Agrega una transición suave */
     font-size: xx-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Rubik', sans-serif;
   }
   /* Estilos para los títulos en medio de las imágenes */
 .titulo {
@@ -130,7 +129,7 @@ section p {
     background-color: rgba(221, 158, 42, 0.555);
     padding: 5px;
     font-size: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Rubik', sans-serif;
   }
   /* Mostrar descripción al pasar el ratón sobre el contenedor */
   .image-item:hover .descripcion {
@@ -152,13 +151,13 @@ section p {
   }
   .sucursales-info h2{
     color: burlywood;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Rubik', sans-serif;
     font-size: 50px;
     padding: 40px;
   }
   .sucursales-info p{
     color:rgba(235, 138, 48, 0.815);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: xx-large;
   }
   .sucursales-info li{
@@ -176,7 +175,7 @@ section p {
   }
   .mapa h3{
     color:burlywood;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Rubik', sans-serif;
   }
   .mapa iframe{
     width: 100%; /* Ocupa todo el ancho del contenedor */
@@ -200,7 +199,7 @@ height: 400px; /* alto de la imagen */
   .formulario h3 {
     margin-top: 0;
     color: #e5be84;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: x-large;
 }
   

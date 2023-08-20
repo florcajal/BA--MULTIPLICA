@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Rubik:wght@300&display=swap"
+        rel="stylesheet">
     <title>Maria Marta</title>
 </head>
 
@@ -66,9 +69,10 @@
                 con ellos.
             </p>
             <br>
-            <a class="whatsapp-icono" href="https://api.whatsapp.com/send?phone=TUNUMERO" target="_blank"> <!--contiene el enlace a whatsapp-->
+            <a class="whatsapp-icono" href="https://api.whatsapp.com/send?phone=TUNUMERO" target="_blank">
+                <!--contiene el enlace a whatsapp-->
                 <img src="assets/whatsapp.gif" alt="WhatsApp"> <!-- se inserta la imagen-->
-              </a>
+            </a>
         </section>
         <br>
         <section2>
@@ -78,8 +82,10 @@
                 <!-- TITULO y DESCRIPCION se utilizan para aplicar estilos a estas partes usando CSS-->
                 <div class="image-item">
                     <img src="assets/Emp de carne.jpeg" alt="Empanada de carne">
-                    <h3 class="titulo"> CARNE</h3> <!--<h3> son utilizados para los títulos de las empanadas y los elementos-->
-                    <p class="descripcion"> Carne vacuna, Cebolla, Huevo, Morrón y Condimentos</p> <!--<p> para las descripciones.-->
+                    <h3 class="titulo"> CARNE</h3>
+                    <!--<h3> son utilizados para los títulos de las empanadas y los elementos-->
+                    <p class="descripcion"> Carne vacuna, Cebolla, Huevo, Morrón y Condimentos</p>
+                    <!--<p> para las descripciones.-->
                 </div>
                 <div class="image-item">
                     <img src="assets/emp de pollo.jpeg" alt="Empanada de pollo">
@@ -95,7 +101,7 @@
                 <div class="image-item">
                     <img src="assets/emp jyq.jpeg" alt="Empanada de jamón y queso">
                     <h3 class="titulo"> JAMÓN Y QUESO</h3>
-                    <p class="descripcion"> Jamón y Mozzarella</p> 
+                    <p class="descripcion"> Jamón y Mozzarella</p>
                 </div>
                 <div class="image-item">
                     <img src="assets/Empanadas de espinaca.jpeg" alt="Empanada de espinacas">
@@ -116,43 +122,43 @@
 
         <section3 class="sucursales"> <!-- division para mostrar informacion de sucursales-->
             <div class="sucursales-info"> <!-- muestra la informacion de las sucursales-->
-              <h2>Sucursales</h2>
-              <p>Encuentra nuestras delicias en diferentes ubicaciones:</p>
-              <br>
-              <ul>
-                <li>Sucursal CASA CENTRAL CABA- Ciudad de bs as, 682</li>
+                <h2>Sucursales</h2>
+                <p>Encuentra nuestras delicias en diferentes ubicaciones:</p>
                 <br>
-                <li>Sucursal LONGCHAMPS - Carlos dihel, 2000 </li>
-                <br>
-                <li>Sucursal QUILMES - Quilmes centro, 443 </li>
-                
-              </ul>
-              <div class="casacentral">
-                <img src="assets/maria marta.png" alt=" casa central">
-              </div>
+                <ul>
+                    <li>Sucursal CASA CENTRAL CABA- Ciudad de bs as, 682</li>
+                    <br>
+                    <li>Sucursal LONGCHAMPS - Carlos dihel, 2000 </li>
+                    <br>
+                    <li>Sucursal QUILMES - Quilmes centro, 443 </li>
+
+                </ul>
+                <div class="casacentral">
+                    <img src="assets/maria marta.png" alt=" casa central">
+                </div>
             </div>
             <div class="mapa-y-formulario"> <!-- contiene tanto el mapa como el formulario-->
-              <div class="mapa"> <!-- division para mostrar el mapa -->
-                <h3>Ubicación en el mapa</h3>
-                <!--  código de iframe del mapa se utiliza para poner un mapa -->
-                <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.678901234567!2d-0.12345678901234567!3d12.345678901234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDI1JzUwLjkiTiAxwrAwNycxMS42Ilc!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus">
-            </iframe>
-                
+                <div class="mapa"> <!-- division para mostrar el mapa -->
+                    <h3>Ubicación en el mapa</h3>
+                    <!--  código de iframe del mapa se utiliza para poner un mapa -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.678901234567!2d-0.12345678901234567!3d12.345678901234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDI1JzUwLjkiTiAxwrAwNycxMS42Ilc!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus">
+                    </iframe>
+
+                </div>
+                <div class="formulario"> <!--division para mostrar el formulario-->
+                    <h3>Quejas y Sugerencias</h3>
+                    <form>
+                        <!-- Campos del formulario aquí -->
+                        <input type="text" name="nombre" placeholder="Nombre">
+                        <input type="email" name="email" placeholder="Correo electrónico">
+                        <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
             </div>
-              <div class="formulario"> <!--division para mostrar el formulario-->
-                <h3>Quejas y Sugerencias</h3>
-                <form>
-                  <!-- Campos del formulario aquí -->
-                  <input type="text" name="nombre" placeholder="Nombre">
-                  <input type="email" name="email" placeholder="Correo electrónico">
-                  <textarea name="mensaje" placeholder="Mensaje"></textarea>
-                  <button type="submit">Enviar</button>
-                </form>
-              </div>
-            </div>
-          </section3>
-          
+        </section3>
+
     </main>
     <footer>
 
@@ -161,23 +167,26 @@
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- 
+
     <footer>
         <div class="redes-sociales">
-          <a  class="redes-link"   href="https://www.facebook.com/"><img src="assets/fb logo.png" alt="Facebook"></a> <!--href  es el enlace a las redes sociales-->
-          <a  class="redes-link"   href="https://twitter.com"><img src="assets/tw logo.png" alt="Twitter"></a> <!-- img, src se utiliza para poner la imagen del enlace-->
-          <a  class="redes-link"   href="https://www.instagram.com/"><img src="assets/ig logo.png" alt="Instagram"></a>
-          <a class="whatsapp-icono" href="https://api.whatsapp.com/send?phone=TUNUMERO" target="_blank"> <!--contiene el enlace a whatsapp-->
-          
-          <a class="whatsapp-icono-footer" href="https://api.whatsapp.com/send?phone=TUNUMERO" target="_blank">
-            <img src="assets/whatsapp.gif" alt="WhatsApp">
-          </a>
+            <a class="redes-link" href="https://www.facebook.com/"><img src="assets/fb logo.png" alt="Facebook"></a>
+            <!--href  es el enlace a las redes sociales-->
+            <a class="redes-link" href="https://twitter.com"><img src="assets/tw logo.png" alt="Twitter"></a>
+            <!-- img, src se utiliza para poner la imagen del enlace-->
+            <a class="redes-link" href="https://www.instagram.com/"><img src="assets/ig logo.png" alt="Instagram"></a>
+            <a class="whatsapp-icono" href="https://api.whatsapp.com/send?phone=TUNUMERO" target="_blank">
+                <!--contiene el enlace a whatsapp-->
+
+                <a class="whatsapp-icono-footer" href="https://api.whatsapp.com/send?phone=TUNUMERO" target="_blank">
+                    <img src="assets/whatsapp.gif" alt="WhatsApp">
+                </a>
         </div>
         <p>&copy; 2023 MARIA MARTA</p>
-        
-      </footer>
-      
- 
+
+    </footer>
+
+
 </body>
 
 </html>
