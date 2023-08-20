@@ -266,4 +266,17 @@ footer {
     width: 80px;
     height: 80px;
   }
-  
+  /* Media Query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .sucursales {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .mapa-y-formulario {
+    margin-top: 20px;
+  }
+
+  .formulario {
+    padding: 10px;
+  }
