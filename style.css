@@ -1,0 +1,270 @@
+
+
+/* Cambia el color de fondo del menú de navegación a beige */
+.navbar {
+    background-color: rgb(131, 131, 26); 
+}
+
+/* Cambia el color de fondo del botón de hamburguesa a beige */
+.navbar-toggler-icon {
+    background-color: beige;
+}
+
+/* Cambia el color del texto de los enlaces de navegación */
+.nav-link {
+    color: #333333;
+    /* Cambia este color según tus preferencias */
+}
+
+/* Cambia el color del texto de los enlaces de navegación cuando se les hace clic */
+.nav-link:hover {
+    color: #555555;
+    /* Cambia este color según tus preferencias */
+}
+
+.navbar img {
+    /* cambia el tamaño del logo */
+    height: 180px;
+    /*alto*/
+    width: 180px;
+    /* ancho*/
+    margin-left: 100px;
+}
+
+section {
+    background-image: url(assets/fondo\ emp.jpeg);
+    background-size: cover;
+    /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center;
+    /* Centra la imagen en el fondo */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita en caso de que sea más pequeña que la sección */
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/* Estilos para el icono de WhatsApp */
+.whatsapp-icono {
+    position: absolute;
+    bottom: -110px; /* ajusta la posicion vertical de la imagen (abajo o arriba)*/
+    right: 30px;
+    width: 160px;  /* ajusta el tamaño del icono*/
+    height: 160px; /* ajusta el tamaño del icomo*/
+    /* background-color: #25d366;
+    border-radius: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .whatsapp-icono img {
+    width: 70%; /*ajusta el tamaño de la imagen del icono*/
+    height: 70%; /* ajusta el tamaño de la imagen delo icono*/
+ 
+}
+  
+section h1 {
+    color: rgb(155, 122, 13);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 5px;
+}
+
+section h3 {
+    text-align: center;
+    color: rgb(241, 233, 233);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+section p {
+    text-align: center;
+    color: rgb(41, 91, 148);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:x-large ;
+    
+}
+/* Estilos para la cuadrícula de imágenes */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  /* Estilos para cada elemento de imagen */
+  .image-item {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Estilos para las imágenes dentro de los elementos */
+  .image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Estilos para las descripciones debajo de las imágenes */
+  .descripcion {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(211, 158, 11, 0.575);
+    color: #191a17;
+    padding: 30px;
+    margin: 0;
+    opacity: 0; /* Inicialmente oculta la descripción */
+    transition: opacity 0.3s ease; /* Agrega una transición suave */
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  /* Estilos para los títulos en medio de las imágenes */
+.titulo {
+    position: absolute;
+    top: 50%; /* Alinea el título verticalmente al 50% */
+    left: 50%; /* Alinea el título horizontalmente al 50% */
+    transform: translate(-50%, -50%); /* Centra el título en la imagen */
+    margin: 0;
+    color: #111110;
+    background-color: rgba(221, 158, 42, 0.555);
+    padding: 5px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  /* Mostrar descripción al pasar el ratón sobre el contenedor */
+  .image-item:hover .descripcion {
+    opacity: 1;
+  }
+  
+  /* Estilos generales para la sección "sucursales" */
+.sucursales {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: #191a17;
+  }
+  
+  /* Estilos para la información de sucursales */
+  .sucursales-info {
+    flex: 1;
+  }
+  .sucursales-info h2{
+    color: burlywood;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    padding: 40px;
+  }
+  .sucursales-info p{
+    color:rgba(235, 138, 48, 0.815);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+  }
+  .sucursales-info li{
+    color: #5f8ec0;
+  }
+  
+  /* Estilos para el mapa y el formulario */
+  .mapa-y-formulario {
+    flex: 2;
+  }
+  
+  /* Estilos para el mapa */
+  .mapa {
+    margin-bottom: 30px;
+  }
+  .mapa h3{
+    color:burlywood;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .mapa iframe{
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+  height: 400px; /* Ajusta la altura según tus necesidades */
+  border: none; /* Quita el borde del iframe */
+}
+.casacentral img{
+    padding-right:  10px;
+width: 100%;
+height: 400px; /* alto de la imagen */
+}
+
+  
+  /* Estilos para el formulario */
+  .formulario {
+    background-color: #e7bb7898;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .formulario h3 {
+    margin-top: 0;
+    color: #e5be84;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+  
+  .formulario form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e5be84;
+    border-radius: 3px;
+  }
+  
+  .formulario textarea {
+    height: 100px;
+  }
+  
+  .formulario button {
+    padding: 10px 20px;
+    background-color: #f0b971d3;
+    color: #050505;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  /* Estilos generales para el footer */
+footer {
+    background-color: #131212c4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para los iconos de redes sociales */
+  .redes-sociales {
+    margin-bottom: 10px;
+  }
+  
+ .redes-link {
+    display: inline-block;
+    margin: 0 50px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 100px;
+  }
+  
+  .redes-link img {
+    width: 100px;
+    height: 100px;
+  }
+  /* Estilos para el icono de WhatsApp en el footer */
+.whatsapp-icono-footer {
+    display: inline-block;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .whatsapp-icono-footer img {
+    width: 80px;
+    height: 80px;
+  }
+  

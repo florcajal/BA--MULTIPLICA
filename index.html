@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <title>Maria Marta</title>
+</head>
+
+<body>
+    <header>
+        <!-- se utilizo boostrap para el boton hamburguesa-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/3-logo-color.png" alt="MARIA MARTA Casa de Empanadas">
+                </a>
+                <!-- La clase navbar-toggler junto con el atributo data-bs-toggle y otros atributos relacionados, permite que el botón de hamburguesa abra y cierre el menú de navegación en dispositivos móviles.-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- crea una lista de enlaces de navegación que se mostrará en el menú de navegación.-->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#productos">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <br>
+            <h1> Nuestra Historia</h1>
+            <br>
+            <h3>
+                Ser una empresa gastronómica de nivel internacional en continua expansión, reconocida por ser la N° 1 en
+                nuestros productos PREMIUM de calidad indiscutida.
+            </h3>
+            <br>
+            <br>
+            <p>
+
+                Brindar experiencias gastronómicas sensorialmente memorables inéditas en el mercado mediante la
+                innovación constante en recetas que potencian los sentidos, la selección y uso de materias primas de los
+                más altos estándares de calidad.
+            </p>
+
+            <p>
+                La mejora continua de nuestros procesos, maquinarias, tecnología
+                productiva, la confianza y el compromiso mutuo con nuestros colaboradores para alcanzar la excelencia y
+                garantizar la satisfacción requerida por nuestros clientes y el cumplimiento de los compromisos asumidos
+                con ellos.
+            </p>
+            <br>
+            <a class="whatsapp-icono" href="https://api.whatsapp.com/send?phone=TUNUMERO" target="_blank"> <!--contiene el enlace a whatsapp-->
+                <img src="assets/whatsapp.gif" alt="WhatsApp"> <!-- se inserta la imagen-->
+              </a>
+        </section>
+        <br>
+        <section2>
+            <!-- Div contenedor para la cuadricula de las imagenes-->
+            <div class="image-grid">
+                <!-- Primera fila -->
+                <!-- TITULO y DESCRIPCION se utilizan para aplicar estilos a estas partes usando CSS-->
+                <div class="image-item">
+                    <img src="assets/Emp de carne.jpeg" alt="Empanada de carne">
+                    <h3 class="titulo"> CARNE</h3> <!--<h3> son utilizados para los títulos de las empanadas y los elementos-->
+                    <p class="descripcion"> Carne vacuna, Cebolla, Huevo, Morrón y Condimentos</p> <!--<p> para las descripciones.-->
+                </div>
+                <div class="image-item">
+                    <img src="assets/emp de pollo.jpeg" alt="Empanada de pollo">
+                    <h3 class="titulo">POLLO</h3>
+                    <p class="descripcion">Pollo, Cebolla, Morrón y Condimentos</p>
+                </div>
+                <div class="image-item">
+                    <img src="assets/emp caprese.jpeg" alt="Empanada caprese">
+                    <h3 class="titulo">CAPRESSE</h3>
+                    <p class="descripcion">Mozzarella, Tomate Fresco y Albahaca</p>
+                </div>
+                <!-- Segunda fila -->
+                <div class="image-item">
+                    <img src="assets/emp jyq.jpeg" alt="Empanada de jamón y queso">
+                    <h3 class="titulo"> JAMÓN Y QUESO</h3>
+                    <p class="descripcion"> Jamón y Mozzarella</p> 
+                </div>
+                <div class="image-item">
+                    <img src="assets/Empanadas de espinaca.jpeg" alt="Empanada de espinacas">
+                    <h3 class="titulo"> ESPINACA</h3>
+                    <p class="descripcion">Espinacas Frescas, Mozzarella, Huevo, Morrón y Condimentos</p>
+                </div>
+                <div class="image-item">
+                    <img src="assets/emp de humita.jpeg" alt="Empanada de Humita">
+                    <h3 class="titulo"> HUMITA</h3>
+                    <p class="descripcion">Choclo fresco, Mozzarella, Huevo, Morrón, Cebolla de Verdeo y Condimentos</p>
+                </div>
+
+            </div>
+
+
+
+        </section2>
+
+        <section3 class="sucursales"> <!-- division para mostrar informacion de sucursales-->
+            <div class="sucursales-info"> <!-- muestra la informacion de las sucursales-->
+              <h2>Sucursales</h2>
+              <p>Encuentra nuestras delicias en diferentes ubicaciones:</p>
+              <br>
+              <ul>
+                <li>Sucursal CASA CENTRAL CABA- Ciudad de bs as, 682</li>
+                <br>
+                <li>Sucursal LONGCHAMPS - Carlos dihel, 2000 </li>
+                <br>
+                <li>Sucursal QUILMES - Quilmes centro, 443 </li>
+                
+              </ul>
+              <div class="casacentral">
+                <img src="assets/maria marta.png" alt=" casa central">
+              </div>
+            </div>
+            <div class="mapa-y-formulario"> <!-- contiene tanto el mapa como el formulario-->
+              <div class="mapa"> <!-- division para mostrar el mapa -->
+                <h3>Ubicación en el mapa</h3>
+                <!--  código de iframe del mapa se utiliza para poner un mapa -->
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.678901234567!2d-0.12345678901234567!3d12.345678901234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDI1JzUwLjkiTiAxwrAwNycxMS42Ilc!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus">
+            </iframe>
+                
+            </div>
+              <div class="formulario"> <!--division para mostrar el formulario-->
+                <h3>Quejas y Sugerencias</h3>
+                <form>
+                  <!-- Campos del formulario aquí -->
+                  <input type="text" name="nombre" placeholder="Nombre">
+                  <input type="email" name="email" placeholder="Correo electrónico">
+                  <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                  <button type="submit">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </section3>
+          
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+    <footer>
+        <div class="redes-sociales">
+          <a  class="redes-link"   href="https://www.facebook.com/"><img src="assets/fb logo.png" alt="Facebook"></a> <!--href  es el enlace a las redes sociales-->
+          <a  class="redes-link"   href="https://twitter.com"><img src="assets/tw logo.png" alt="Twitter"></a> <!-- img, src se utiliza para poner la imagen del enlace-->
+          <a  class="redes-link"   href="https://www.instagram.com/"><img src="assets/ig logo.png" alt="Instagram"></a>
+          <a class="whatsapp-icono" href="https://api.whatsapp.com/send?phone=TUNUMERO" target="_blank"> <!--contiene el enlace a whatsapp-->
+          
+          <a class="whatsapp-icono-footer" href="https://api.whatsapp.com/send?phone=TUNUMERO" target="_blank">
+            <img src="assets/whatsapp.gif" alt="WhatsApp">
+          </a>
+        </div>
+        <p>&copy; 2023 MARIA MARTA</p>
+        
+      </footer>
+      
+ 
+</body>
+
+</html>
